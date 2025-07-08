@@ -1,0 +1,17 @@
+/*default max-width of every single element*/
+.container {
+    max-width: 1120px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1168px) {
+    .container {
+        padding-inline: 24px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .container {
+        padding-inline: 16px;
+    }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 10,
+    "name": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+    "price": 1437,
+    "image": "../assets/Iphone-gold.png",
+    "favorite": false
+  },
+  {
+    "id": 4,
+    "name": "AirPods Max Silver Starlight Aluminium",
+    "price": 549,
+    "image": "../assets/Airpods.png",
+    "favorite": false
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch 41mm Starlight Aluminium",
+    "price": 399,
+    "image": "../assets/Apple-watch.png",
+    "favorite": false
+  },
+  {
+    "id": 40,
+    "name": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+    "price": 1499,
+    "image": "../assets/Iphone-silver.png",
+    "favorite": false
+  }
+]

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cyber | shopping cart</title>
+    <link rel="stylesheet" href="styles/shopping-cart.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <figure class="logo-wrapper">
+        <a href="./index.html"><img src="./assets/Logo.svg" alt="cyber-logo"/></a>
+      </figure>
+      <div class="search-wrapper">
+        <img src="./assets/Search.svg" alt="search" class="search-icon" />
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="nav-bar-wrapper">
+        <ul class="nav-bar">
+          <li>Home</li>
+          <li class="non-active-nav-bar">About</li>
+          <li class="non-active-nav-bar">Contact Us</li>
+          <li class="non-active-nav-bar">Blog</li>
+        </ul>
+      </div>
+      <figure class="actions-wrapper">
+        <img src="./assets/Favorites.svg" alt="favorites" />
+        <img src="./assets/Cart.svg" alt="cart" />
+        <img src="./assets/User.svg" alt="user" />
+      </figure>
+      <div class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <div class="divider-line"></div>
+    <section class="shopping-cart-section container">
+      <div class="product-list-wrapper">
+        <div class="section-title">
+          <h2>Shopping Cart</h2>
+        </div>
+        <div class="products-list">
+          <div class="product">
+            <img
+              class="product-img"
+              src="./assets/Product-Image.png"
+              alt="product-image"
+            />
+            <div class="product-content">
+              <div class="product-info">
+                <h3>Apple iPhone 14 Pro Max 128Gb Deep Purple</h3>
+                <p>#25139526913984</p>
+              </div>
+              <div class="product-second-line">
+                <div class="product-quantity">
+                  <button class="decrease">−</button>
+                  <input type="text" value="1" />
+                  <button class="increase">+</button>
+                </div>
+                <p class="product-price">$1399</p>
+                <img class="delete-button" src="./assets/Delete-Button.svg" alt="delete-button" />
+              </div>
+            </div>
+          </div>
+          <div class="product-divider"></div>
+          <div class="product">
+            <img
+              class="product-img"
+              src="./assets/Product-Image.png"
+              alt="product-image"
+            />
+            <div class="product-content">
+              <div class="product-info">
+                <h3>Apple iPhone 14 Pro Max 128Gb Deep Purple</h3>
+                <p>#25139526913984</p>
+              </div>
+              <div class="product-second-line">
+                <div class="product-quantity">
+                  <button class="decrease">−</button>
+                  <input type="text" value="1" />
+                  <button class="increase">+</button>
+                </div>
+                <p class="product-price">$1399</p>
+                <img class="delete-button" src="./assets/Delete-Button.svg" alt="delete-button" />
+              </div>
+            </div>
+          </div>
+          <div class="product-divider"></div>
+          <div class="product">
+            <img
+              class="product-img"
+              src="./assets/Product-Image.png"
+              alt="product-image"
+            />
+            <div class="product-content">
+              <div class="product-info">
+                <h3>Apple iPhone 14 Pro Max 128Gb Deep Purple</h3>
+                <p>#25139526913984</p>
+              </div>
+              <div class="product-second-line">
+                <div class="product-quantity">
+                  <button class="decrease">−</button>
+                  <input type="text" value="1" />
+                  <button class="increase">+</button>
+                </div>
+                <p class="product-price">$1399</p>
+                <img class="delete-button" src="./assets/Delete-Button.svg" alt="delete-button" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-summary-wrapper">
+        <div class="order-summary">
+          <h3>Order Summary</h3>
+          <p class="input-label">Discount code / Promo code</p>
+          <input
+            class="order-input"
+            id="input-border"
+            type="text"
+            placeholder="Code"
+          />
+          <p class="input-label padding-top-24px">Your bonus card number</p>
+          <div class="order-input">
+            <input type="text" placeholder="Enter Card Number" />
+            <button>Apply</button>
+          </div>
+          <div class="total-wrapper">
+            <div class="subtotal">
+              <p class="black-style-medium">Subtotal</p>
+              <p class="black-style-large">$2347</p>
+            </div>
+            <div class="tax">
+              <p class="gray-style-large">Estimated Tax</p>
+              <p class="black-style-large">$50</p>
+            </div>
+            <div class="shipping">
+              <p class="gray-style-large">Estimated shipping & Handling</p>
+              <p class="black-style-large">$29</p>
+            </div>
+            <div class="total">
+              <p class="black-style-medium">Total</p>
+              <p class="black-style-large">$2426</p>
+            </div>
+          </div>
+          <button class="checkout-btn">Checkout</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-wrapper container">
+        <div class="description-wrapper">
+          <img src="assets/White-Logo.svg" alt="logo" />
+          <p>
+            We are a residential interior design firm located in Portland. Our
+            boutique-studio offers more than
+          </p>
+        </div>
+        <div class="footer-options-wrapper">
+          <ul class="first-option-line">
+            <li class="bold-footer-option">Services</li>
+            <li>Bonus program</li>
+            <li>Gift cards</li>
+            <li>Credit and payment</li>
+            <li>Service contracts</li>
+            <li>Non-cash account</li>
+            <li>Payment</li>
+          </ul>
+          <ul class="second-option-line">
+            <li class="bold-footer-option">Assistance to the buyer</li>
+            <li>Find an order</li>
+            <li>Terms of delivery</li>
+            <li>Exchange and return of goods</li>
+            <li>Guarantee</li>
+            <li>Frequently asked questions</li>
+            <li>Terms of use of the site</li>
+          </ul>
+        </div>
+      </div>
+      <div class="social-wrapper container">
+        <img src="./assets/Twitter.svg" alt="twitter-logo" />
+        <img src="./assets/Facebook.svg" alt="facebook-logo" />
+        <img src="./assets/Tiktok.svg" alt="tiktok-logo" />
+        <img src="./assets/Instagram.svg" alt="instagram-logo" />
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
