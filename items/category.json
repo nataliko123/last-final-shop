@@ -3,37 +3,37 @@
       "id": 1,
       "category": "Phones",
       "icon": "phone-icon.png",
-      "image": "../assets/Phones.svg"
+      "image": "./assets/Phones.svg"
     },
     {
       "id": 2,
       "category": "Smart Watches",
       "icon": "smartwatch-icon.png",
-      "image": "../assets/Cameras.png"
+      "image": "./assets/Cameras.png"
     },
     {
       "id": 3,
       "category": "Cameras",
       "icon": "camera-icon.png",
-      "image": "../assets/Headphones.png"
+      "image": "./assets/Headphones.png"
     },
     {
       "id": 4,
       "category": "Headphones",
       "icon": "headphones-icon.png",
-      "image": "../assets/Smart-Watches.png"
+      "image": "./assets/Smart-Watches.png"
     },
     {
       "id": 5,
       "category": "Computers",
       "icon": "computer-icon.png",
-      "image": "../assets/Computers.png"
+      "image": "./assets/Computers.png"
     },
     {
       "id": 6,
       "category": "Gaming",
       "icon": "gaming-icon.png",
-      "image": "../assets/Gaming.png"
+      "image": "./assets/Gaming.png"
     }
   ]
   
