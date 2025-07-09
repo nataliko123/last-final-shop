@@ -90,7 +90,7 @@ function updateCartDisplay() {
         updateOrderSummary(0, 0, 0, 0);
         cartContainer.innerHTML = `
             <div class='empty-cart-wrapper'>
-                <img class='empty-logo' src='../assets/empty-shopping-cart.webp' alt='empty-cart-logo'/>
+                <img class='empty-logo' src='./assets/empty-shopping-cart.webp' alt='empty-cart-logo'/>
                 <p class='empty-card-title'>Your shopping cart is empty.</p>
             </div>
         `;
@@ -124,7 +124,7 @@ function updateCartDisplay() {
                         <button class="increase" data-index="${index}">+</button>
                     </div>
                     <p class="product-price">$${(product.price * product.quantity).toFixed(2)}</p>
-                    <img class="delete-button" src="../assets/Delete-Button.svg" alt="delete-button" data-index="${index}">
+                    <img class="delete-button" src="./assets/Delete-Button.svg" alt="delete-button" data-index="${index}">
                 </div>
             </div>
         `;
@@ -171,7 +171,7 @@ function removeFromCart(index) {
         if (cartContainer) {
             cartContainer.innerHTML = `
                 <div class='empty-cart-wrapper'>
-                    <img class='empty-logo' src='../assets/empty-shopping-cart.webp' alt='empty-cart-logo'/>
+                    <img class='empty-logo' src='./assets/empty-shopping-cart.webp' alt='empty-cart-logo'/>
                     <p class='empty-card-title'>Your shopping cart is empty.</p>
                 </div>
             `;
